@@ -18,12 +18,6 @@
     $password = '';
     $dbname = 'ctec';
 
-    // Amazon Web Services Data
-    // $host = 'ctec-127.cuqeqos1gudo.us-east-1.rds.amazonaws.com';
-    // $user = 'belgort';
-    // $password = 'XyNRKGta2bpxaexB';
-    // $dbname = 'ctec';
-
     // DSN - Data Source Name
     $dsn = 'mysql:host=' . $host . ';dbname=' . $dbname;
 
