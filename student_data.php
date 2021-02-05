@@ -16,7 +16,6 @@
     // Set PDO default data type to be returned
     $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_OBJ);
 
-
     $sql = "SELECT * FROM student";
     $stmt = $pdo->prepare($sql);
     $stmt->execute();
