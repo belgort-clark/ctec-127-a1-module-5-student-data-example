@@ -10,17 +10,7 @@
 
 <body>
     <?php
-    // NOTE: The db_connect.inc.php is not used here
-    // We hardcoded the connection. Don't do this :-)
-    // MySQL Data
-    $host = 'localhost';
-    $user = 'root';
-    $password = '';
-    $dbname = 'ctec';
-
-    // DSN - Data Source Name
-    $dsn = 'mysql:host=' . $host . ';dbname=' . $dbname;
-
+    require "inc/db_connect.inc.php";
     // Create a PDO Instance
     $pdo = new PDO($dsn, $user, $password);
     // Set PDO default data type to be returned

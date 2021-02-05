@@ -1,8 +1,8 @@
-<?php 
+<?php
 $host = 'localhost';
 $user = 'root';
 $password = '';
-$dbname = 'pdoposts';
+$dbname = 'ctec';
 
 // DSN - Data Source Name
 $dsn = 'mysql:host=' . $host . ';dbname=' . $dbname;
